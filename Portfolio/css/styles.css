@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto&display=swap');
+.home .container{
+    display: flex;
+    justify-content: space-between  ;
+    background: linear-gradient(to right, rgba(255,0,0,0), rgb(35,79,187));;
+}
+.main{
+    background-color: #9796e4;
+    color: aliceblue;
+}
+
+.navbar-brand{
+    color: #0c0649;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+.hero_title {
+    font-size: 4.5rem;
+    font-family: 'Dancing Script', cursive
+}
+.hero_desc {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+.hero-text {
+    text-align: right;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    color: rgb(255, 255, 255);
+}
+
+.imageAboutPage {
+    width: 80%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.servicesText.card {
+    height: 250px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card-body{
+    color: #706ef0;
+}
+.card:hover .servicesIcon {
+    color: #706ef0;
+}
+.servicesText:hover {
+    border: 1px solid #624dbe;
+}
+
+.social-icons {
+    font-size: 20px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #78787a;
+}
+.fab {
+    color: #535ddd;
+}
+
+#footer {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
